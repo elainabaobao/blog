@@ -1,0 +1,42 @@
+
+<!doctype html>
+<html>
+<head>
+	<meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Blog</title>
+    <link rel='stylesheet' href='styles/reset.css'>
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link rel='stylesheet' href='styles/main.css'>
+</head>
+<body id="postapp">
+	<!-- BODY -->
+	<div class="container" style="padding-top:20px">
+		<div class="row">
+                    <div class="col-md-2 post-col "><a href = "/">Back</a></div>
+                    
+                    
+                    <div class="col-md-12 post-col postDetail">
+                        <h3>Edit Post</h3>
+                        <div class="col-md-10">
+                            <input type="hidden" id="postId" />
+                            <textarea rows="5" cols="112" id="postContent"></textarea>
+                        </div>
+                        <div class="col-md-2">
+                            <button class="updatePost">Update</button>
+                        </div>
+                    </div>
+                        
+			
+		</div><!-- row -->
+	</div><!-- container -->
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src='javascript/update.js'></script>
+</body>
+</html>

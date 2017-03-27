@@ -1,0 +1,36 @@
+`/* CURRENTLY IN: styles/main.css */
+html {
+	font-size: 12px;
+}
+
+#postapp .post-col {
+	/*border: 1px solid black;*/
+	text-align: center;
+}
+
+#postapp .post-spinner {
+	animation: spinner 2.0s linear infinite;
+}
+
+#postapp .postlist-item {
+	font-weight: bold;
+	text-align: left;
+}
+
+#postapp .postlist-icon {
+	float: right;
+	margin: 0 0.25rem;
+}
+
+#postapp .post-addbtn {
+	cursor: pointer;
+}
+
+@keyframes spinner {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
